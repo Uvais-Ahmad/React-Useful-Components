@@ -10,13 +10,15 @@ import Faqs from './component/faqs';
 import OnPointerMove from './component/onPointerMove';
 // import Sculpture from './component/sabirTask';
 import StateQueue from './component/stateQueue';
+import AutoComplete from './component/autoComplete';
 
 function App() {
   return (
     <div className="App">
       {/* <OnPointerMove/> */}
       {/* <Faqs/> */}
-      <AccordionComponent />
+      {/* <AccordionComponent /> */}
+      <AutoComplete />
     </div>
   );
 }
