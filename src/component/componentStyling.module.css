@@ -1,0 +1,41 @@
+/* AutoComplete Component */
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.input {
+    height: 20px;
+    width: 30%;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 8px;
+    transition: .2s all;
+    border: 1px solid #83888b;
+}
+.input:focus{
+    box-shadow: 1px 1px 10px 1px lightgrey;
+}
+.ul {
+    width: 32%;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 1px 1px 10px 1px lightgrey;
+}
+
+.li{
+    border-radius: 10px;
+    list-style: none;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(244, 244, 244);
+    margin: 10px;
+}
+
+.li:hover{
+    background-color: rgb(224, 224, 224);
+}
