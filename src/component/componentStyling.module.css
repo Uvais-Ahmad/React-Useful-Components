@@ -39,3 +39,22 @@
 .li:hover{
     background-color: rgb(224, 224, 224);
 }
+/* TIC TAC TOE GAME */
+
+
+
+.box {
+    width: 25%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+}
+
+.square {
+    height: 90px;
+    /* width: 25%; */
+    font-size: 60px;
+    padding: 0px;
+    font-weight: bolder;
+}

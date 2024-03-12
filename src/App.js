@@ -11,6 +11,7 @@ import OnPointerMove from './component/onPointerMove';
 // import Sculpture from './component/sabirTask';
 import StateQueue from './component/stateQueue';
 import AutoComplete from './component/autoComplete';
+import TicTacToe from './component/ticTacToe';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <OnPointerMove/> */}
       {/* <Faqs/> */}
       {/* <AccordionComponent /> */}
-      <AutoComplete />
+      {/* <AutoComplete /> */}
+      <TicTacToe />
     </div>
   );
 }
