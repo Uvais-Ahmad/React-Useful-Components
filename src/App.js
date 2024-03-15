@@ -12,6 +12,8 @@ import OnPointerMove from './component/onPointerMove';
 import StateQueue from './component/stateQueue';
 import AutoComplete from './component/autoComplete';
 import TicTacToe from './component/ticTacToe';
+import StyledComponent from './component/styledComponent';
+import CodeTube from './component/codeTube/codeTube';
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       {/* <Faqs/> */}
       {/* <AccordionComponent /> */}
       {/* <AutoComplete /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      {/* <StyledComponent/> */}
+      <CodeTube/>
     </div>
   );
 }
