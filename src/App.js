@@ -14,6 +14,8 @@ import AutoComplete from './component/autoComplete';
 import TicTacToe from './component/ticTacToe';
 import StyledComponent from './component/styledComponent';
 import CodeTube from './component/codeTube/codeTube';
+import Counter from './component/counter';
+import Form from './component/form';
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
       {/* <AutoComplete /> */}
       {/* <TicTacToe /> */}
       {/* <StyledComponent/> */}
-      <CodeTube/>
+      {/* <CodeTube/> */}
+      <Counter/>
+      {/* <Form/> */}
     </div>
   );
 }
