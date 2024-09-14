@@ -16,6 +16,9 @@ import StyledComponent from './component/styledComponent';
 import CodeTube from './component/codeTube/codeTube';
 import Counter from './component/counter';
 import Form from './component/form';
+import ParentContext from './component/parentContext';
+import authContext from './config/context';
+import CustomContext from './component/CustomContext';
 
 function App() {
   return (
@@ -28,7 +31,12 @@ function App() {
       {/* <StyledComponent/> */}
       {/* <CodeTube/> */}
       {/* <Counter/> */}
-      <Form/>
+      {/* <Form/> */}
+      {/* <authContext.Provider value={{name: 'Uvais Ahmad'}}>
+        <ParentContext/>
+      </authContext.Provider> */}
+
+      <CustomContext />
     </div>
   );
 }
