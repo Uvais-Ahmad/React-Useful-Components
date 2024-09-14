@@ -27,8 +27,8 @@ function App() {
       {/* <TicTacToe /> */}
       {/* <StyledComponent/> */}
       {/* <CodeTube/> */}
-      <Counter/>
-      {/* <Form/> */}
+      {/* <Counter/> */}
+      <Form/>
     </div>
   );
 }
